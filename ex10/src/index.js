@@ -7,5 +7,5 @@ function mySplice(arr1, arr2, n) {
     return arr2;
 }
 // Only change code above this line
-console.log(mySplice()); // Change this line
+console.log(mySplice(["Dell", "Philips"], ["Samsung", "AOX", "Sony"], 2)); // Change this line
 module.exports = mySplice;
