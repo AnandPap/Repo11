@@ -15,10 +15,10 @@ function multiplyArrayFunction(myArray) {
             sum = sum + myArray[i][j];
         }
     }
-    arr[0] = product;
-    arr[1] = sum;
+    arr.push(product);
+    arr.push(sum);
     return arr;
 }
 // Only change code above this line
-console.log(multiplyArrayFunction());   //Change this line
+console.log(multiplyArrayFunction([[1, 2], [3, 4, 5, 6], [7, 8, 9]]));   //Change this line
 module.exports = multiplyArrayFunction;
