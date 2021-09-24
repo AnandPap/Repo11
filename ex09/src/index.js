@@ -10,5 +10,5 @@ function myBouncer(arr) {
     return arr;
 }
 // Only change code above this line
-console.log(myBouncer()); // Change this line
+console.log(myBouncer([false, null, 0, NaN, ""])); // Change this line
 module.exports = myBouncer;
