@@ -17,5 +17,5 @@ function myMutation(arr) {
     return false;
 }
 // Only change code above this line
-console.log(myMutation());  // Change this line
+console.log(myMutation(["Mary", "Aarmy"]));  // Change this line
 module.exports = myMutation;
